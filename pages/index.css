@@ -5,12 +5,119 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: #000000;
 }
 .header {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex-wrap: wrap;
+  position: relative;
+  right: 80px;
+  bottom: 30px;
+}
+
+.nav__link {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  position: relative;
+  top: 183px;
+  left: 80px;
+  max-width: 709px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+.span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  display: flex;
+  position: relative;
+  top: 28px;
+  max-width: 683px;
+  margin: 0%;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+  border-radius: 25%;
+}
+.header__footer {
+  position: absolute;
+  bottom: 40px;
+
+  color: #6f6f6f;
+}
+.header__footer__list {
+  list-style-type: none;
+}
+.header__footer__list-item {
+}
+
+.header__paragraph {
+  color: #6f6f6f;
 }
 
 .content {
 }
+
 .recipes {
 }
 
